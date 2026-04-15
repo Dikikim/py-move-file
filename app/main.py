@@ -4,7 +4,6 @@ import os
 def move_file(command: str) -> None:
     parts = command.split()
 
-    # Basic validation of the command format
     if len(parts) != 3 or parts[0] != "mv":
         return
 
